@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="39E70541-0A98-FF39-B537-4580BD26F1D4">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:49:00 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo lógico e físico - TESTE SQL" id="180FE470-A684-7468-CB42-0635EB634C9A" version="3.5">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:49:00 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>180FE470-A684-7468-CB42-0635EB634C9A</designId>
+</OSDM_Design>

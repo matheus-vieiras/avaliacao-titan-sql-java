@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B54B772B-E7FE-B84C-4549-4D6431A551FD" containerWithKeyObject="B6E67199-A1EF-B061-78F1-ED8B1073C399" localFKIndex="31E94E56-FA1C-C2D7-9CB3-40AE5E413BC4" name="T_ESTOQUE_T_LOJA_FK">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>7585A7CA-ED64-E170-4725-CA55D9DF112A</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<referredTableLongName>T_LOJA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6EC2E4DD-76CC-23CE-0029-099E379B9AA8</referredTableID>
+<keyObject>C604A1F7-14B6-19B9-7DE7-902623628EDC</keyObject>
+<referredKeyID>C604A1F7-14B6-19B9-7DE7-902623628EDC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>loj_prod</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

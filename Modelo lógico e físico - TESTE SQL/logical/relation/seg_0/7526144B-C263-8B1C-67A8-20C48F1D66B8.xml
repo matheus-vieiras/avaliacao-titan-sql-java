@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="7526144B-C263-8B1C-67A8-20C48F1D66B8">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:53:45 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="true"/>
+</engineerTo>
+<sourcePk>4DEB55D5-B0D7-BAB1-C04E-9060238121FE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D60CA7FF-FE94-6545-0269-74F1F53FBC94</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32F3E902-8839-4D85-8A6B-4FABC9B0E735</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

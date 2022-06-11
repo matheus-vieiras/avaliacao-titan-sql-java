@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6E67199-A1EF-B061-78F1-ED8B1073C399" name="T_ESTOQUE">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>7C32D567-F23A-CE36-F8C3-DD3EFB6247EA</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="qnt_prod" id="AE091F64-53AA-E570-F173-ACD8FC4BF376">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>43252772-68EE-0028-B9DD-0EF6DB587897</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,15,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LOJA_loj_prod" id="F934DE1E-5325-337B-CB28-32453F1DFE01">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>41C839C8-8D0F-6231-B11C-5E951CE4BDA2</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B54B772B-E7FE-B84C-4549-4D6431A551FD" referredColumn="611CBB33-818A-8360-812A-C8C1D8726D18"/>
+</associations>
+</Column>
+<Column name="cd_estoque" id="589AAE85-2C1F-3C0B-02F9-F8F4782BF924">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 19:25:38 UTC</createdTime>
+<generatorID>5FBF98E7-4D47-7C37-2E2E-A38629E40420</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7001288-BB7E-679D-1D1F-68F408247254" name="T_ESTOQUE_PKv1">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 19:25:38 UTC</createdTime>
+<generatorID>754A6036-CD67-2B1E-2132-A22508CB451E</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="589AAE85-2C1F-3C0B-02F9-F8F4782BF924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AEBD0A4-291D-F93B-0471-6B72A240F7E0" name="T_ESTOQUE_PK">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+</ind_PK_UK>
+<ind_PK_UK id="31E94E56-FA1C-C2D7-9CB3-40AE5E413BC4" name="T_ESTOQUE_T_LOJA_FK">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>7585A7CA-ED64-E170-4725-CA55D9DF112A</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F934DE1E-5325-337B-CB28-32453F1DFE01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

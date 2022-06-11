@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32F3E902-8839-4D85-8A6B-4FABC9B0E735" name="T_PRODUTO">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:49:22 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_prod" id="23304F14-1159-7843-1B82-8B4EBE2A380E">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:49:30 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_prod" id="49E80E66-9A30-D146-9A0C-92421EC35FC9">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:49:31 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inclu_prod" id="5148E913-454D-05EE-0FA3-1905FBB30329">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:49:31 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco_prod" id="5634DA60-F9C3-1E39-128E-24AB60A9BBB6">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:49:32 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,8,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loj_prod" id="54193428-BD82-5412-2BFC-63D2CA9CC0FF">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:53:45 UTC</createdTime>
+<generatorID>7526144B-C263-8B1C-67A8-20C48F1D66B8</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="true"/>
+</engineerTo>
+<referedAttribute>EFDC0E71-A137-E85A-6E3B-49DCD75F3B45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estoque" id="3F0CDC8E-A525-2222-16AA-E699D34E1FD3">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 22:32:12 UTC</createdTime>
+<generatorID>AF934492-30E4-0BBB-F82B-6E80D097522E</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="true"/>
+</engineerTo>
+<referedAttribute>5FBF98E7-4D47-7C37-2E2E-A38629E40420</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="600BF66D-818E-94F8-3DAB-307EFD3AB701" name="T_PRODUTO PK">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:50:09 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23304F14-1159-7843-1B82-8B4EBE2A380E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

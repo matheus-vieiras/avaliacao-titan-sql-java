@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="31317A28-E61C-A5F7-C91D-EC3C986B7944">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:49:00 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

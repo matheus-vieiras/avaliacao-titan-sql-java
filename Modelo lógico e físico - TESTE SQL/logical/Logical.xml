@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3191940B-8082-9DAD-A8CC-F44ACCA9E9BC" mainViewID="E7B2A83C-927A-89C6-2AEA-B46BFFC1DAEF">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:49:00 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

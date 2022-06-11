@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D60CA7FF-FE94-6545-0269-74F1F53FBC94" name="T_LOJA">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:52:02 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="loj_prod" id="EFDC0E71-A137-E85A-6E3B-49DCD75F3B45">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:52:10 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desc_loj" id="37F51929-82EA-1E63-CFE5-7D5DD185A460">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:52:52 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DEB55D5-B0D7-BAB1-C04E-9060238121FE" name="T_LOJA PK">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:53:08 UTC</createdTime>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3046C49C-CA63-7DA6-896C-FF7DF7A0641D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EFDC0E71-A137-E85A-6E3B-49DCD75F3B45</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

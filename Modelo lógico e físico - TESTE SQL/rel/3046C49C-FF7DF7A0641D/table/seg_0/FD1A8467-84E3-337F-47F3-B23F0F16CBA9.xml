@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD1A8467-84E3-337F-47F3-B23F0F16CBA9" name="T_PRODUTO">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>32F3E902-8839-4D85-8A6B-4FABC9B0E735</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_prod" id="820A3DA0-B223-D831-93FE-CA709805A5C9">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>23304F14-1159-7843-1B82-8B4EBE2A380E</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_prod" id="147343F7-1D1C-CFD6-247F-B724B4837C04">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>49E80E66-9A30-D146-9A0C-92421EC35FC9</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inclu_prod" id="EF36368A-9FD5-CD93-8664-A31B05FB50B8">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>5148E913-454D-05EE-0FA3-1905FBB30329</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco_prod" id="639BAF51-79A9-52A3-17F6-A447492ABF46">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>5634DA60-F9C3-1E39-128E-24AB60A9BBB6</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,8,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LOJA_loj_prod" id="02F4B411-A0F2-E137-DFE7-7BF9125B5450">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>54193428-BD82-5412-2BFC-63D2CA9CC0FF</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="836EBB08-F318-413C-C18E-13E327BB32B1" referredColumn="611CBB33-818A-8360-812A-C8C1D8726D18"/>
+</associations>
+</Column>
+<Column name="T_ESTOQUE_cd_estoque" id="C3D2F2CF-1447-FF9E-A65A-193B74CD2B37">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 22:32:25 UTC</createdTime>
+<generatorID>3F0CDC8E-A525-2222-16AA-E699D34E1FD3</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD02A65B-FB36-AF78-BD13-081D39A0BA24" referredColumn="589AAE85-2C1F-3C0B-02F9-F8F4782BF924"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="499F85CF-84C4-F078-7DF9-A1B0B7CAA551" name="T_PRODUTO_PK">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>600BF66D-818E-94F8-3DAB-307EFD3AB701</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="820A3DA0-B223-D831-93FE-CA709805A5C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62F829BD-ED5E-7B6B-1B3B-7FBCD126381A" name="T_PRODUTO_T_LOJA_FK">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>7526144B-C263-8B1C-67A8-20C48F1D66B8</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02F4B411-A0F2-E137-DFE7-7BF9125B5450"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="787F3281-7E60-95AB-962C-79980191F83E" name="T_PRODUTO_T_ESTOQUE_FK">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>A75F79BD-8435-324A-DB3F-2DDFCBE1D3E1</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="9ECA07B2-27B1-A3FC-2EE3-85CC57682D2D" name="T_PRODUTO_T_ESTOQUE_FKv1">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 22:32:25 UTC</createdTime>
+<generatorID>AF934492-30E4-0BBB-F82B-6E80D097522E</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3D2F2CF-1447-FF9E-A65A-193B74CD2B37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

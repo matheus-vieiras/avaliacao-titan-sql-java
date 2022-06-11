@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EC2E4DD-76CC-23CE-0029-099E379B9AA8" name="T_LOJA">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>D60CA7FF-FE94-6545-0269-74F1F53FBC94</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="loj_prod" id="611CBB33-818A-8360-812A-C8C1D8726D18">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>EFDC0E71-A137-E85A-6E3B-49DCD75F3B45</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_loj" id="1D2B26D1-522F-BC1D-5177-9FB818AB1BDB">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>37F51929-82EA-1E63-CFE5-7D5DD185A460</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C604A1F7-14B6-19B9-7DE7-902623628EDC" name="T_LOJA_PK">
+<createdBy>mathe</createdBy>
+<createdTime>2022-06-11 14:54:16 UTC</createdTime>
+<generatorID>4DEB55D5-B0D7-BAB1-C04E-9060238121FE</generatorID>
+<ownerDesignName>Modelo lógico e físico - TESTE SQL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="611CBB33-818A-8360-812A-C8C1D8726D18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
